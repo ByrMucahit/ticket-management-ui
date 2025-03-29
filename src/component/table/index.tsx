@@ -95,7 +95,6 @@ export default function Table(props: TableProps) {
         };
       }, []);
 
-    console.log('trrr: ', travelsList);
     return (
         <Card className="h-full w-full overflow-scroll">
             <table className="w-full min-w-max table-auto text-left">
